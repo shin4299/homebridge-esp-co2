@@ -15,8 +15,8 @@ class ESPCO2Plugin
 {
   constructor(log, config) {
     this.log = log;
-    this.temperatureOn = config.temperatureOn;
-    this.carbonDioxideSet = config.carbonDioxideSet || 1000;
+    this.temperatureOn = config.temperatureOn || true;
+    this.carbonDioxideSet = config.carbonDioxideSet || 1200;
     this.name = config.name;
     this.name_temperature = config.name_temperature || this.name + 'temp';
     this.name_carbonDioxide = config.name_carbonDioxide || this.name + 'CO2';
