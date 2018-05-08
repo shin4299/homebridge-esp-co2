@@ -1,0 +1,31 @@
+{
+  "name": "homebridge-esp-co2",
+  "version": "1.0.0",
+  "description": "UDP server receiving JSON messages from sensors for Homebridge: https://github.com/nfarina/homebridge\"",
+  "main": "esp-co2.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/shin4299/homebridge-esp-co2.git"
+  },
+  "keywords": [
+    "homebridge-plugin",
+    "esp",
+    "temperature",
+    "carbondioxide",
+    "sensor"
+  ],
+  "author": "shin4299",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shin4299/homebridge-esp-co2/issues"
+  },
+  "engines": {
+    "node": ">=6.0.0",
+    "homebridge": ">=0.2.0"
+  },
+  "homepage": "https://github.com/shin4299/homebridge-esp-co2#readme",
+  "dependencies": {}
+}
