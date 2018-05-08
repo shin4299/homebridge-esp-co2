@@ -11,7 +11,7 @@ module.exports = (homebridge) => {
   homebridge.registerAccessory('homebridge-esp-co2', 'ESPCO2', ESPCO2Plugin);
 };
 
-class UDPJSONPlugin
+class ESPCO2Plugin
 {
   constructor(log, config) {
     this.log = log;
