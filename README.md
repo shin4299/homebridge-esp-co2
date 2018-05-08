@@ -12,7 +12,7 @@ plugin for [Homebridge](https://github.com/nfarina/homebridge)
 ## Configuration
 * `accessory`: "ESPCO2"  ---- Require
 * `name`: descriptive name  ---- Require
-* `listen_port`: UDP port to listen on for incoming messages   ---- No-Require(default 8269)
+* `listen_port`: UDP port to listen on for incoming messages   ---- No-Require(default 8268)
 * `temperatureOn`: 'true' or 'false'   ---- No-Require(default true)
 * `carbonDioxideSet`: Carbon dioxide value for notification   ---- No-Require(default 1200ppm)
 
