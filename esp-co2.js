@@ -8,7 +8,7 @@ module.exports = (homebridge) => {
   Service = homebridge.hap.Service;
   Characteristic = homebridge.hap.Characteristic;
 
-  homebridge.registerAccessory('homebridge-esp-co2', 'ESP', ESPeasyCO2);
+  homebridge.registerAccessory('homebridge-esp-co2', 'ESPCO2', ESPCO2Plugin);
 };
 
 class UDPJSONPlugin
